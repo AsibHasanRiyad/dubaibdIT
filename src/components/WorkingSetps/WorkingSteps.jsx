@@ -6,7 +6,7 @@ const WorkingSteps = () => {
     <div className="bg-paragraph">
       <div className=" relative z-50 max-w-[1440px] mx-auto  px-4 md:px-14 xl:px-[70px] pt-9 pb-16">
         {/* title */}
-        <div className=" flex justify-end">
+        <div className="flex justify-end ">
           <Title
             title={"How We Works"}
             heading1={"Our Easy Working Steps "}
@@ -15,15 +15,20 @@ const WorkingSteps = () => {
           />
         </div>
         {/* steps */}
-        <div className=" z-40 grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-14 text-center pt-8 md:pt-20">
-          <div className=" flex flex-col items-center space-y-3">
-            <div className=" relative">
+        <div className="z-40 grid grid-cols-2 gap-8 pt-8 text-center lg:grid-cols-4 md:gap-14 md:pt-20">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="flex flex-col items-center space-y-3 "
+          >
+            <div className="relative ">
               <img
                 className=" w-[72px] md:w-[142px]"
                 src="https://i.ibb.co/VH2r4sx/Work-Step-Option.png"
                 alt=""
               />
-              <div className=" absolute -left-5 -top-5 md:-left-12 md:-top-12">
+              <div className="absolute -left-5 -top-5 md:-left-12 md:-top-12">
                 <Number number={"01"} />
               </div>
             </div>
@@ -36,14 +41,19 @@ const WorkingSteps = () => {
             </p>
           </div>
           {/*  2*/}
-          <div className=" flex flex-col items-center space-y-3 mt-8 md:mt-0">
-            <div className=" relative">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="flex flex-col items-center mt-8 space-y-3 md:mt-0"
+          >
+            <div className="relative ">
               <img
                 className=" w-[72px] md:w-[142px]"
                 src="https://i.ibb.co/1dt1fwZ/Work-Step-Option-1.png"
                 alt=""
               />
-              <div className=" absolute -left-5 -top-5 md:-left-12 md:-top-12">
+              <div className="absolute -left-5 -top-5 md:-left-12 md:-top-12">
                 <Number number={"02"} />
               </div>
             </div>
@@ -56,14 +66,19 @@ const WorkingSteps = () => {
             </p>
           </div>
           {/* 3 */}
-          <div className=" flex flex-col items-center space-y-3">
-            <div className=" relative">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="flex flex-col items-center space-y-3 "
+          >
+            <div className="relative ">
               <img
                 className=" w-[72px] md:w-[142px]"
                 src="https://i.ibb.co/M6RndKf/Work-Step-Option-2.png"
                 alt=""
               />
-              <div className=" absolute -left-5 -top-5 md:-left-12 md:-top-12">
+              <div className="absolute -left-5 -top-5 md:-left-12 md:-top-12">
                 <Number number={"03"} />
               </div>
             </div>
@@ -76,14 +91,19 @@ const WorkingSteps = () => {
             </p>
           </div>
           {/* 4 */}
-          <div className=" flex flex-col items-center space-y-3 mt-8 md:mt-0">
-            <div className=" relative">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="flex flex-col items-center mt-8 space-y-3 md:mt-0"
+          >
+            <div className="relative ">
               <img
                 className=" w-[72px] md:w-[142px]"
                 src="https://i.ibb.co/7N09nNJ/Work-Step-Option-3.png"
                 alt=""
               />
-              <div className=" absolute -left-5 -top-5 md:-left-12 md:-top-12">
+              <div className="absolute -left-5 -top-5 md:-left-12 md:-top-12">
                 <Number number={"04"} />
               </div>
             </div>
@@ -132,7 +152,7 @@ const WorkingSteps = () => {
           </svg>
         </div>
         {/* small device svg */}
-        <div className=" block md:hidden absolute top-5 left-0 -z-50">
+        <div className="absolute left-0 block md:hidden top-5 -z-50">
           <svg
             width="420"
             height="488"

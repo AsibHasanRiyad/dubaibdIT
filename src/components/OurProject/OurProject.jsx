@@ -23,7 +23,12 @@ const OurProject = () => {
             src="https://i.ibb.co/GFdzJsQ/Untitled-design-2.jpg"
             alt=""
           />
-          <div className=" absolute top-10 right-2 md:-right-20 bg-[#252531] w-fit p-5">
+          <div
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className=" absolute top-10 right-2 md:-right-20 bg-[#252531] w-fit p-5"
+          >
             <h1 className=" text-[22px] md:text-[16px] xl:text-[28px] font-semibold text-primary">
               Figma To HTML
             </h1>
@@ -42,7 +47,12 @@ const OurProject = () => {
             src="https://i.ibb.co/ctM1YX9/Untitled-design-2-3.jpg"
             alt=""
           />
-          <div className=" absolute bottom-28 md:bottom-20 lg:bottom-28 left-2 md:-left-20 bg-[#252531] w-fit p-5">
+          <div
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className=" absolute bottom-28 md:bottom-20 lg:bottom-28 left-2 md:-left-20 bg-[#252531] w-fit p-5"
+          >
             <h1 className=" text-[22px] md:text-[16px]  xl:text-[28px] font-semibold text-primary">
               Design & Development
             </h1>
@@ -61,7 +71,12 @@ const OurProject = () => {
             src="https://i.ibb.co/HPTPJk6/2.jpg"
             alt=""
           />
-          <div className=" absolute top-10 right-2 md:-right-20 bg-[#252531] w-fit p-5">
+          <div
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className=" absolute top-10 right-2 md:-right-20 bg-[#252531] w-fit p-5"
+          >
             <h1 className=" text-[22px] md:text-[16px] xl:text-[28px] font-semibold text-primary">
               School Management
             </h1>
@@ -81,7 +96,12 @@ const OurProject = () => {
             src="https://i.ibb.co/bHtNkL0/1.jpg"
             alt=""
           />
-          <div className=" absolute bottom-28 md:bottom-20 lg:bottom-28 left-2 md:-left-20 bg-[#252531] w-fit p-5">
+          <div
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className=" absolute bottom-28 md:bottom-20 lg:bottom-28 left-2 md:-left-20 bg-[#252531] w-fit p-5"
+          >
             <h1 className=" text-[22px] md:text-[16px]  xl:text-[28px] font-semibold text-primary">
               Urban Design
             </h1>

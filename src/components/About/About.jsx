@@ -3,7 +3,7 @@ const About = () => {
     <div className=" bg-[#343438]">
       <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-[1440px] mx-auto py-[70px] px-[40px] pt-14 lg:pt-[120px] gap-8">
         <div
-          data-aos="fade-right"
+          data-aos="zoom-in-right"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           className="flex items-center "
@@ -15,7 +15,7 @@ const About = () => {
           />
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="zoom-in-left"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           className="text-gray-100 "
