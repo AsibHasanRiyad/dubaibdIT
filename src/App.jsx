@@ -17,7 +17,7 @@ import WorkingSteps from "./components/WorkingSetps/WorkingSteps";
 const App = () => {
   useEffect(() => {
     AOS.init();
-    AOS.refresh();
+    // AOS.refresh();
   }, []);
 
   return (

@@ -36,8 +36,8 @@ const WorkingSteps = () => {
               Visit Project
             </h1>
             <p className=" text-[12px] lg:text-[14px] text-gray-100">
-              Lorem ipsum dolor sit amet consectetur. Ullamcorper euismod eget
-              laoreet volutpat egestas posuere urna phasellus.
+              For starting a project if possible we visit the company and learn
+              about their requirements.
             </p>
           </div>
           {/*  2*/}
@@ -61,8 +61,8 @@ const WorkingSteps = () => {
               Planning Design
             </h1>
             <p className=" text-[12px] lg:text-[14px] text-gray-100">
-              Lorem ipsum dolor sit amet consectetur. Ullamcorper euismod eget
-              laoreet volutpat egestas posuere urna phasellus.
+              After getting the requirements from client our design team start
+              making beautiful design.
             </p>
           </div>
           {/* 3 */}
@@ -86,8 +86,8 @@ const WorkingSteps = () => {
               Project Sketch
             </h1>
             <p className=" text-[12px] lg:text-[14px] text-gray-100">
-              Lorem ipsum dolor sit amet consectetur. Ullamcorper euismod eget
-              laoreet volutpat egestas posuere urna phasellus.
+              It is very important for a project to draw a sketch of how data
+              will be assigned.
             </p>
           </div>
           {/* 4 */}
@@ -111,8 +111,8 @@ const WorkingSteps = () => {
               Start Working
             </h1>
             <p className=" text-[12px] lg:text-[14px] text-gray-100">
-              Lorem ipsum dolor sit amet consectetur. Ullamcorper euismod eget
-              laoreet volutpat egestas posuere urna phasellus.
+              After setting everything up our developer team start working over
+              the project.
             </p>
           </div>
         </div>
