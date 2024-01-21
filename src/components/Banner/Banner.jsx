@@ -16,7 +16,7 @@ const Banner = () => {
         </div>
         <div className=" text-[22px] md:text-4xl lg:text-6xl font-normal md:font-medium lg:font-bold my-3 lg:my-6 space-y-1 lg:space-y-6">
           <h1>WORLD CLASS DESIGN</h1>
-          <h1>FOR YOUR WEBSITEEE</h1>
+          <h1>FOR YOUR WEBSITE</h1>
         </div>
         <p className=" max-w-[265px] md:max-w-[465px] lg:max-w-[680px] text-lg text-justify">
           Our IT company leads with visionary solutions, propelling industries

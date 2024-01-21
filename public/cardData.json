@@ -1,23 +1,23 @@
 [
-      {
-        "number": "01",
-        "imageSrc": "https://i.ibb.co/W2HTq9m/building-construction-design-home-house-interior-icon-1320184072774422773.png",
-        "title": "Architecture",
-        "description": "Lorem ipsum dolor sit amet consectetur. Amet id non felis pretium consectetur id magna.",
-        "buttonText": "Get Service"
-      },
-      {
-        "number": "02",
-        "imageSrc": "https://i.ibb.co/fn1G1bQ/building-construction-design-home-house-interior-icon-1320184072774422773-1.png",
-        "title": "Interior Design",
-        "description": "Lorem ipsum dolor sit amet consectetur. Amet id non felis pretium consectetur id magna.",
-        "buttonText": "Get Service"
-      },
-      {
-        "number": "03",
-        "imageSrc": "https://i.ibb.co/HNSMjrS/building-construction-design-home-house-interior-icon-1320184072774422773-2.png",
-        "title": "Home Decor",
-        "description": "Lorem ipsum dolor sit amet consectetur. Amet id non felis pretium consectetur id magna.",
-        "buttonText": "Get Service"
-      }
-    ]
+  {
+    "number": "01",
+    "imageSrc": "https://i.ibb.co/J31V6pv/icons8-figma-500.png",
+    "title": "Figma to HTML",
+    "description": "Our experienced developer can convert any figma design to HTML.",
+    "buttonText": "Get Service"
+  },
+  {
+    "number": "02",
+    "imageSrc": "https://i.ibb.co/cTVbJH4/quality-assurance.png",
+    "title": "SQA",
+    "description": "If you need quality assurance for your software we can assist you.",
+    "buttonText": "Get Service"
+  },
+  {
+    "number": "03",
+    "imageSrc": "https://i.ibb.co/v4HG1QZ/information-technology.png",
+    "title": "IT Development",
+    "description": "IT development is a must need for an IT Company.Contact us of IT Services.",
+    "buttonText": "Get Service"
+  }
+]
