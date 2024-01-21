@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import About from "./components/About/About";
 import Banner from "./components/Banner/Banner";
 import Contact from "./components/Contact/Contact";
@@ -12,6 +15,11 @@ import WhatWeDone from "./components/WhatWeDone/WhatWeDone";
 import WorkingSteps from "./components/WorkingSetps/WorkingSteps";
 
 const App = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className="w-full overflow-hidden ">
       <Navbar />

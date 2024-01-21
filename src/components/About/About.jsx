@@ -2,14 +2,24 @@ const About = () => {
   return (
     <div className=" bg-[#343438]">
       <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-[1440px] mx-auto py-[70px] px-[40px] pt-14 lg:pt-[120px] gap-8">
-        <div className="flex items-center ">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="flex items-center "
+        >
           <img
             className=" h-80 md:h-full"
             src="https://i.ibb.co/37XkgXP/annie-spratt-Qckxruozj-Rg-unsplash.jpg"
             alt=""
           />
         </div>
-        <div className="text-gray-100 ">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="text-gray-100 "
+        >
           <div className="flex items-center gap-4 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"

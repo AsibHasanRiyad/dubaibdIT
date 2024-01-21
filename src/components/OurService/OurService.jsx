@@ -9,7 +9,7 @@ const OurService = () => {
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
-  console.log(data);
+  // console.log(data);
   return (
     <div className=" max-w-[1440px] mx-auto">
       <div className=" relative px-4 md:px-14 xl:px-[70px] my-[46px] lg:my-[120px]">
@@ -17,12 +17,17 @@ const OurService = () => {
           title={"Our Service"}
           color={"text-heading"}
           heading1={"We Provide Best  "}
-          heading2={"Design and Performance Website"}
+          heading2={"Design and Performance"}
         />
         {/* cards */}
-        <div className="grid grid-cols-1 gap-5 mt-5 md:grid-cols-2 lg:grid-cols-3 md:mt-12">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="grid grid-cols-1 gap-5 mt-5 md:grid-cols-2 lg:grid-cols-3 md:mt-12"
+        >
           {data?.map((card) => (
-            <div key={data.number} className="p-6 border-2 border-primary">
+            <div key={card.number} className="p-6 border-2 border-primary">
               <div className="flex items-start justify-between ">
                 <div className=" h-[108px] w-[108px] lg:w-[156px] lg:h-[156px] ">
                   <img src={card?.imageSrc} alt="" />

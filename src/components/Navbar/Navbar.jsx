@@ -7,7 +7,12 @@ const Navbar = () => {
     setDropdownOpen(!isDropdownOpen);
   };
   return (
-    <div className="absolute top-0 z-50 w-full bg-gradient-to-r from-gray-400/40 to-gray-50/20">
+    <div
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      className="absolute top-0 z-50 w-full bg-gradient-to-r from-gray-400/40 to-gray-50/20"
+    >
       <header className="z-50 flex flex-wrap w-full text-sm bg-transparent sm:justify-start sm:flex-nowrap sm:py-0">
         <nav
           className="relative max-w-[85rem] w-full mx-auto sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
@@ -15,7 +20,7 @@ const Navbar = () => {
         >
           <div className="flex items-center justify-between bg-[#000000]">
             <div className="flex items-center justify-between gap-3 bg-[#242020] w-max h-full px-5 py-2.5 lg:px-8 lg:py-5">
-              <h1 className="text-2xl font-bold lg:text-5xl text-primary ">
+              <h1 className="text-xl font-bold lg:text-3xl text-primary ">
                 Dubai Bangla
               </h1>
             </div>

@@ -9,12 +9,17 @@ const Banner = () => {
         backgroundBlendMode: "color-burn",
       }}
     >
-      <div className="text-gray-100">
+      <div
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        className="text-gray-100"
+      >
         <div className="flex items-center gap-4 text-5xl font-bold ">
           <div className="h-1 w-16 md:w-24 lg:w-32 bg-[#FF7749]"></div>
           <h1 className="text-4xl">#1</h1>
         </div>
-        <div className=" text-[22px] text-[#FF7749] md:text-4xl lg:text-6xl font-normal md:font-medium lg:font-bold my-3 lg:my-6 space-y-1 lg:space-y-6">
+        <div className=" text-[22px] text-[#ff7649f4] md:text-4xl lg:text-6xl font-normal md:font-medium lg:font-bold my-3 lg:my-6 space-y-1 lg:space-y-6">
           <h1>WORLD CLASS DESIGN</h1>
           <h1>FOR YOUR WEBSITE</h1>
         </div>
