@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className=" bg-[#343438]">
-      <div className=" grid grid-cols-2 max-w-[1440px] mx-auto py-[70px] px-[40px] pt-14 lg:pt-[120px] gap-8">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-[1440px] mx-auto py-[70px] px-[40px] pt-14 lg:pt-[120px] gap-8">
         <div className="flex items-center ">
           <img
             className=" h-80 md:h-full"
@@ -9,7 +9,7 @@ const About = () => {
             alt=""
           />
         </div>
-        <div className="text-white ">
+        <div className="text-gray-100 ">
           <div className="flex items-center gap-4 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"

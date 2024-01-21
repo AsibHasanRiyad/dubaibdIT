@@ -13,8 +13,8 @@ const FeedBack = () => {
           />
         </div>
         {/* main image div */}
-        <div className=" pt-5 md:pt-10">
-          <div className=" relative">
+        <div className="pt-5 md:pt-10">
+          <div className="relative ">
             <img
               className=" min-h-[361px]"
               src="https://i.ibb.co/QNBgbrP/Untitled-design-1.jpg"
@@ -28,17 +28,18 @@ const FeedBack = () => {
               </h1>
               <div className=" h-[1px] bg-primary w-full"></div>
               <p className=" hidden lg:block mt-2 mb-14 text-[14px] px-4 md:text-base text-paragraph text-center">
-                Lorem ipsum dolor sit amet consectetur. Elit ac vel nec augue
-                pharetra lectus duis. Nullam dignissim pretium egestas non
-                turpis turpis purus lobortis.
+                Dubai Bangla IT Company has exceeded our expectations. Their
+                expertise and commitment to excellence have streamlined our
+                operations and enhanced security. Effective communication and
+                innovative solutions make them a reliable partner.
               </p>
               <p className=" block lg:hidden mt-2 mb-4 text-[12px] px-4 md:px-0 md:text-base text-paragraph text-center">
-                Lorem ipsum dolor sit amet consectetur. Elit ac vel nec augue
-                pharetra lectus duis.
+                Dubai Bangla IT Company has exceeded our expectations. Their
+                expertise streamlined our operations and enhanced security.
               </p>
 
               {/* client info */}
-              <div className=" flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center ">
                 <img
                   className=" w-[56px] md:w-[72px] h-[56px] md:h-[72px]"
                   src="https://i.ibb.co/nfbsZRY/Ellipse-88.png"
@@ -51,7 +52,7 @@ const FeedBack = () => {
                   Manager Of Alco. LTD
                 </p>
                 {/* dot */}
-                <div className=" pt-2 lg:pt-8">
+                <div className="pt-2 lg:pt-8">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="60"
@@ -83,7 +84,7 @@ const FeedBack = () => {
               </div>
             </div>
             {/* view promo video */}
-            <div className="absolute top-8 left-14 md:top-20 md:left-24 xl:top-36 xl:left-48 flex flex-col items-center justify-center">
+            <div className="absolute flex flex-col items-center justify-center top-8 left-14 md:top-20 md:left-24 xl:top-36 xl:left-48">
               <div className="h-[62px] w-[62px] md:h-[100px] md:w-[100px]">
                 <svg
                   viewBox="0 0 114 114"
@@ -103,7 +104,7 @@ const FeedBack = () => {
                 </svg>
               </div>
 
-              <h1 className=" text-base lg:text-[22px] text-white font-normal md:font-medium ">
+              <h1 className=" text-base lg:text-[22px] text-gray-100 font-normal md:font-medium ">
                 VIEW PROMO VIDEO
               </h1>
             </div>
@@ -169,7 +170,7 @@ const FeedBack = () => {
           </svg>
         </div>
         {/* mobile and tablet svg */}
-        <div className=" absolute -top-3 -left-5 block md:hidden">
+        <div className="absolute block -top-3 -left-5 md:hidden">
           <svg
             width="450"
             height="143"

@@ -15,7 +15,7 @@ const OurProject = () => {
         />
       </div>
       {/* images */}
-      <div className="grid grid-cols-1 gap-5 mt-5  md:grid-cols-2 md:gap-x-24 md:gap-y-14 xl:gap-24 md:mt-10">
+      <div className="grid grid-cols-1 gap-5 mt-5 md:grid-cols-2 md:gap-x-24 md:gap-y-14 xl:gap-24 md:mt-10">
         {/* image 1 */}
         <div className="relative ">
           <img
@@ -25,13 +25,13 @@ const OurProject = () => {
           />
           <div className=" absolute top-10 right-2 md:-right-20 bg-[#252531] w-fit p-5">
             <h1 className=" text-[22px] md:text-[16px] xl:text-[28px] font-semibold text-primary">
-              Architecture
+              Figma To HTML
             </h1>
-            <p className=" text-[14px] md:text-[12px] xl:text-[22px] font-medium text-white">
+            <p className=" text-[14px] md:text-[12px] xl:text-[22px] font-medium text-gray-100">
               Bungalow Dark House
             </p>
           </div>
-          <div className=" text-base font-normal xl:text-[22px] md:font-medium right-1/2 md:right-16 lg:right-28 xl:right-[200px] text-white absolute bottom-5">
+          <div className=" text-base font-normal xl:text-[22px] md:font-medium right-1/2 md:right-16 lg:right-28 xl:right-[200px] text-gray-100 absolute bottom-5">
             <h1 className="text-center ">Bungalow Dark House</h1>
           </div>
         </div>
@@ -44,13 +44,13 @@ const OurProject = () => {
           />
           <div className=" absolute bottom-28 md:bottom-20 lg:bottom-28 left-2 md:-left-20 bg-[#252531] w-fit p-5">
             <h1 className=" text-[22px] md:text-[16px]  xl:text-[28px] font-semibold text-primary">
-              Interior Design
+              Design & Development
             </h1>
-            <p className=" text-[14px] md:text-[12px] xl:text-[22px] font-medium text-white max-w-44">
+            <p className=" text-[14px] md:text-[12px] xl:text-[22px] font-medium text-gray-100 max-w-44">
               Woodenist House Lumberjack
             </p>
           </div>
-          <div className=" text-base font-normal xl:text-[22px] md:font-medium right-10  lg:right-28 xl:right-[200px] text-white absolute bottom-5">
+          <div className=" text-base font-normal xl:text-[22px] md:font-medium right-10  lg:right-28 xl:right-[200px] text-gray-100 absolute bottom-5">
             <h1 className="text-center ">Woodenist House Lumberjack</h1>
           </div>
         </div>
@@ -63,14 +63,14 @@ const OurProject = () => {
           />
           <div className=" absolute top-10 right-2 md:-right-20 bg-[#252531] w-fit p-5">
             <h1 className=" text-[22px] md:text-[16px] xl:text-[28px] font-semibold text-primary">
-              Home Decor
+              School Management
             </h1>
-            <p className=" text-[14px] md:text-[12px] xl:text-[22px] font-medium text-white">
-              Bungalow Dark House
+            <p className=" text-[14px] md:text-[12px] xl:text-[22px] font-medium text-gray-100">
+              North South School
             </p>
           </div>
-          <div className=" text-base font-normal xl:text-[22px] md:font-medium right-1/2 md:right-16 lg:right-28 xl:right-[200px] text-white absolute bottom-5">
-            <h1 className="text-center ">Bungalow Dark House</h1>
+          <div className=" text-base font-normal xl:text-[22px] md:font-medium right-1/2 md:right-16 lg:right-28 xl:right-[200px] text-gray-100 absolute bottom-5">
+            <h1 className="text-center ">North South School</h1>
           </div>
         </div>
         {/* image 4 */}
@@ -85,18 +85,18 @@ const OurProject = () => {
             <h1 className=" text-[22px] md:text-[16px]  xl:text-[28px] font-semibold text-primary">
               Urban Design
             </h1>
-            <p className=" text-[14px] md:text-[12px] xl:text-[22px] font-medium text-white max-w-44">
+            <p className=" text-[14px] md:text-[12px] xl:text-[22px] font-medium text-gray-100 max-w-44">
               Woodenist House Lumberjack
             </p>
           </div>
-          <div className=" text-base font-normal xl:text-[22px] md:font-medium right-10  lg:right-28 xl:right-[200px] text-white absolute bottom-5">
+          <div className=" text-base font-normal xl:text-[22px] md:font-medium right-10  lg:right-28 xl:right-[200px] text-gray-100 absolute bottom-5">
             <h1 className="text-center ">Woodenist House Lumberjack</h1>
           </div>
         </div>
       </div>
       {/* button */}
       <div className="flex items-center justify-center my-10 ">
-        <button className=" bg-primary px-7 lg:px-12 py-3 lg:py-5 text-[18px] rounded-lg text-white ">
+        <button className=" bg-primary px-7 lg:px-12 py-3 lg:py-5 text-[18px] rounded-lg text-gray-100 ">
           Load More
         </button>
       </div>
@@ -146,7 +146,7 @@ const OurProject = () => {
         </svg>
       </div>
       {/* mobile and tablet svg */}
-      <div className="absolute left-0 block  -top-2 md:hidden">
+      <div className="absolute left-0 block -top-2 md:hidden">
         <svg
           width="450"
           height="132"

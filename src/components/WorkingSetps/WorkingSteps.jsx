@@ -11,7 +11,7 @@ const WorkingSteps = () => {
             title={"How We Works"}
             heading1={"Our Easy Working Steps "}
             heading2={"To Do Start A Project"}
-            color={"text-white"}
+            color={"text-gray-100"}
           />
         </div>
         {/* steps */}
@@ -30,7 +30,7 @@ const WorkingSteps = () => {
             <h1 className=" text-[22px] lg:text-[28px] font-medium text-primary">
               Visit Project
             </h1>
-            <p className=" text-[12px] lg:text-[14px] text-white">
+            <p className=" text-[12px] lg:text-[14px] text-gray-100">
               Lorem ipsum dolor sit amet consectetur. Ullamcorper euismod eget
               laoreet volutpat egestas posuere urna phasellus.
             </p>
@@ -50,7 +50,7 @@ const WorkingSteps = () => {
             <h1 className=" text-[22px] lg:text-[28px] font-medium text-primary">
               Planning Design
             </h1>
-            <p className=" text-[12px] lg:text-[14px] text-white">
+            <p className=" text-[12px] lg:text-[14px] text-gray-100">
               Lorem ipsum dolor sit amet consectetur. Ullamcorper euismod eget
               laoreet volutpat egestas posuere urna phasellus.
             </p>
@@ -70,7 +70,7 @@ const WorkingSteps = () => {
             <h1 className=" text-[22px] lg:text-[28px] font-medium text-primary">
               Project Sketch
             </h1>
-            <p className=" text-[12px] lg:text-[14px] text-white">
+            <p className=" text-[12px] lg:text-[14px] text-gray-100">
               Lorem ipsum dolor sit amet consectetur. Ullamcorper euismod eget
               laoreet volutpat egestas posuere urna phasellus.
             </p>
@@ -90,7 +90,7 @@ const WorkingSteps = () => {
             <h1 className=" text-[22px] lg:text-[28px] font-medium text-primary">
               Start Working
             </h1>
-            <p className=" text-[12px] lg:text-[14px] text-white">
+            <p className=" text-[12px] lg:text-[14px] text-gray-100">
               Lorem ipsum dolor sit amet consectetur. Ullamcorper euismod eget
               laoreet volutpat egestas posuere urna phasellus.
             </p>

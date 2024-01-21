@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className=" relative bg-[#343438] text-white text-justify">
+    <div className=" relative bg-[#343438] text-gray-100 text-justify">
       <div className="grid grid-cols-1 xl:grid-cols-3 px-4 md:px-14 xl:px-[70px] pt-8 md:pt-[80px] pb-[60px] gap-4 md:gap-8 xl:gap-14 ">
         {/* first part */}
         <div className="order-1 mb-4 md:order-none md:mb-0">
@@ -190,7 +190,7 @@ const Footer = () => {
         {/* last part  */}
         <div className="order-2 md:order-none">
           <div className="flex items-center gap-3">
-            <h1 className="text-5xl font-bold text-white">Dubai Bangla</h1>
+            <h1 className="text-5xl font-bold text-gray-100">Dubai Bangla</h1>
           </div>
           <p className="py-6 ">
             Our IT company leads with visionary solutions, propelling industries

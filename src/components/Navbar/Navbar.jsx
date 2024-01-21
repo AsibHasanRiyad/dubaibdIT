@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
             <div className="flex items-center py-4 mr-3 sm:hidden">
               {/* mobile call info */}
-              <div className="flex items-center gap-3 pr-4 text-white">
+              <div className="flex items-center gap-3 pr-4 text-gray-100">
                 <div className="w-10 h-10 p-2 bg-white rounded-full ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ const Navbar = () => {
               </div>
               <button
                 type="button"
-                className="flex items-center justify-center text-sm font-semibold text-white rounded-lg hs-collapse-toggle w-9 h-9 gap-x-2 hover:border-white/40 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="flex items-center justify-center text-sm font-semibold text-gray-100 rounded-lg hs-collapse-toggle w-9 h-9 gap-x-2 hover:border-white/40 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 onClick={toggleDropdown}
               >
                 <svg
@@ -106,7 +106,7 @@ const Navbar = () => {
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
                 <button
                   type="button"
-                  className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-white font-medium text-4 xl:text-[22px]"
+                  className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-100 font-medium text-4 xl:text-[22px]"
                 >
                   Home
                   <svg
@@ -128,7 +128,7 @@ const Navbar = () => {
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
                 <button
                   type="button"
-                  className="flex items-center w-full justify-end pr-10 md:pr-0 text-white font-medium text-4 xl:text-[22px]"
+                  className="flex items-center w-full justify-end pr-10 md:pr-0 text-gray-100 font-medium text-4 xl:text-[22px]"
                 >
                   Service
                   <svg
@@ -150,7 +150,7 @@ const Navbar = () => {
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
                 <button
                   type="button"
-                  className="flex items-center w-full justify-end pr-10 md:pr-0 text-white font-medium text-4 xl:text-[22px]"
+                  className="flex items-center w-full justify-end pr-10 md:pr-0 text-gray-100 font-medium text-4 xl:text-[22px]"
                 >
                   Portfolio
                   <svg
@@ -172,7 +172,7 @@ const Navbar = () => {
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
                 <button
                   type="button"
-                  className="flex items-center w-full justify-end pr-10 md:pr-0 text-white font-medium text-4 xl:text-[22px]"
+                  className="flex items-center w-full justify-end pr-10 md:pr-0 text-gray-100 font-medium text-4 xl:text-[22px]"
                 >
                   Pages
                   <svg
@@ -194,7 +194,7 @@ const Navbar = () => {
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
                 <button
                   type="button"
-                  className="flex items-center w-full justify-end pr-10 md:pr-0 text-white font-medium text-4 xl:text-[22px]"
+                  className="flex items-center w-full justify-end pr-10 md:pr-0 text-gray-100 font-medium text-4 xl:text-[22px]"
                 >
                   Blog
                   <svg
@@ -216,14 +216,14 @@ const Navbar = () => {
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
                 <button
                   type="button"
-                  className="flex items-center w-full justify-end pr-14 md:pr-0 text-white font-medium text-4 xl:text-[22px]"
+                  className="flex items-center w-full justify-end pr-14 md:pr-0 text-gray-100 font-medium text-4 xl:text-[22px]"
                 >
                   Contact
                 </button>
               </div>
               <div>
                 {/* Call Info */}
-                <div className="items-center hidden gap-3 pl-2 text-white sm:flex xl:pl-5">
+                <div className="items-center hidden gap-3 pl-2 text-gray-100 sm:flex xl:pl-5">
                   <div className="p-2 bg-white rounded-full h-7 w-7 xl:h-10 xl:w-10">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

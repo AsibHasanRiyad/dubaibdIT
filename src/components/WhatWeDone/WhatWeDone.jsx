@@ -27,10 +27,10 @@ const WhatWeDone = () => {
             <div className="px-4 md:px-14 xl:px-[70px] ">
               <Title
                 title={"Discover"}
-                color={"text-white"}
+                color={"text-gray-100"}
                 heading1={"Dubai Bangla IT Ltd."}
               />
-              <h1 className="flex items-center gap-3 text-white ">
+              <h1 className="flex items-center gap-3 text-gray-100 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
