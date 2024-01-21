@@ -3,7 +3,7 @@ const Banner = () => {
     <div
       className="relative w-full h-screen bg-cover bg-center flex items-center pl-4 md:pl-8 lg:pl-[70px]"
       style={{
-        backgroundImage: `url('https://i.ibb.co/bdsjhCX/mario-verduzco-6-TXh-XN8j2-Bc-unsplash.jpg')`,
+        backgroundImage: `url('https://i.ibb.co/bmwxxn8/mario-verduzco-6-TXh-XN8j2-Bc-unsplash-1.jpg')`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundBlendMode: "color-burn",
