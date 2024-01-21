@@ -13,19 +13,19 @@ import WorkingSteps from "./components/WorkingSetps/WorkingSteps";
 
 const App = () => {
   return (
-    <div className=" w-full overflow-hidden">
+    <div className="w-full overflow-hidden ">
       <Navbar />
       <Banner />
-        <OurService />
-        <About />
-        <OurProject />
-        <WorkingSteps />
-        <MeetOurTeam />
-        <WhatWeDone />
-        <FeedBack />
-        <Stats />
-        <Contact />
-        <Footer />
+      <OurService />
+      <About />
+      <OurProject />
+      <WorkingSteps />
+      <MeetOurTeam />
+      <WhatWeDone />
+      <FeedBack />
+      <Stats />
+      <Contact />
+      <Footer />
     </div>
   );
 };

@@ -15,9 +15,9 @@ const OurProject = () => {
         />
       </div>
       {/* images */}
-      <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-x-24 md:gap-y-14 xl:gap-24 mt-5 md:mt-10">
+      <div className="grid grid-cols-1 gap-5 mt-5  md:grid-cols-2 md:gap-x-24 md:gap-y-14 xl:gap-24 md:mt-10">
         {/* image 1 */}
-        <div className=" relative">
+        <div className="relative ">
           <img
             className=" w-[284px] md:w-[384px] lg:w-[589px] "
             src="https://i.ibb.co/GFdzJsQ/Untitled-design-2.jpg"
@@ -32,11 +32,11 @@ const OurProject = () => {
             </p>
           </div>
           <div className=" text-base font-normal xl:text-[22px] md:font-medium right-1/2 md:right-16 lg:right-28 xl:right-[200px] text-white absolute bottom-5">
-            <h1 className=" text-center">Bungalow Dark House</h1>
+            <h1 className="text-center ">Bungalow Dark House</h1>
           </div>
         </div>
         {/* image 2 */}
-        <div className=" relative">
+        <div className="relative ">
           <img
             className=" ml-28 md:ml-0 w-[284px] md:w-[384px] lg:w-[589px] "
             src="https://i.ibb.co/ctM1YX9/Untitled-design-2-3.jpg"
@@ -51,11 +51,11 @@ const OurProject = () => {
             </p>
           </div>
           <div className=" text-base font-normal xl:text-[22px] md:font-medium right-10  lg:right-28 xl:right-[200px] text-white absolute bottom-5">
-            <h1 className=" text-center">Woodenist House Lumberjack</h1>
+            <h1 className="text-center ">Woodenist House Lumberjack</h1>
           </div>
         </div>
         {/* image 3 */}
-        <div className=" relative">
+        <div className="relative ">
           <img
             className=" w-[284px] md:w-[384px] lg:w-[589px] "
             src="https://i.ibb.co/HPTPJk6/2.jpg"
@@ -70,12 +70,12 @@ const OurProject = () => {
             </p>
           </div>
           <div className=" text-base font-normal xl:text-[22px] md:font-medium right-1/2 md:right-16 lg:right-28 xl:right-[200px] text-white absolute bottom-5">
-            <h1 className=" text-center">Bungalow Dark House</h1>
+            <h1 className="text-center ">Bungalow Dark House</h1>
           </div>
         </div>
         {/* image 4 */}
 
-        <div className=" relative">
+        <div className="relative ">
           <img
             className=" ml-28 md:ml-0 w-[284px] md:w-[384px] lg:w-[589px] "
             src="https://i.ibb.co/bHtNkL0/1.jpg"
@@ -90,12 +90,12 @@ const OurProject = () => {
             </p>
           </div>
           <div className=" text-base font-normal xl:text-[22px] md:font-medium right-10  lg:right-28 xl:right-[200px] text-white absolute bottom-5">
-            <h1 className=" text-center">Woodenist House Lumberjack</h1>
+            <h1 className="text-center ">Woodenist House Lumberjack</h1>
           </div>
         </div>
       </div>
       {/* button */}
-      <div className=" flex items-center justify-center my-10">
+      <div className="flex items-center justify-center my-10 ">
         <button className=" bg-primary px-7 lg:px-12 py-3 lg:py-5 text-[18px] rounded-lg text-white ">
           Load More
         </button>
@@ -146,7 +146,7 @@ const OurProject = () => {
         </svg>
       </div>
       {/* mobile and tablet svg */}
-      <div className=" absolute -top-2  left-0 block md:hidden">
+      <div className="absolute left-0 block  -top-2 md:hidden">
         <svg
           width="450"
           height="132"
