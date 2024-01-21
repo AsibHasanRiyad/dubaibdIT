@@ -1,0 +1,23 @@
+[
+      {
+        "number": "01",
+        "imageSrc": "https://i.ibb.co/W2HTq9m/building-construction-design-home-house-interior-icon-1320184072774422773.png",
+        "title": "Architecture",
+        "description": "Lorem ipsum dolor sit amet consectetur. Amet id non felis pretium consectetur id magna.",
+        "buttonText": "Get Service"
+      },
+      {
+        "number": "02",
+        "imageSrc": "https://i.ibb.co/fn1G1bQ/building-construction-design-home-house-interior-icon-1320184072774422773-1.png",
+        "title": "Interior Design",
+        "description": "Lorem ipsum dolor sit amet consectetur. Amet id non felis pretium consectetur id magna.",
+        "buttonText": "Get Service"
+      },
+      {
+        "number": "03",
+        "imageSrc": "https://i.ibb.co/HNSMjrS/building-construction-design-home-house-interior-icon-1320184072774422773-2.png",
+        "title": "Home Decor",
+        "description": "Lorem ipsum dolor sit amet consectetur. Amet id non felis pretium consectetur id magna.",
+        "buttonText": "Get Service"
+      }
+    ]
