@@ -3,29 +3,33 @@ const Footer = () => {
     <div className=" relative bg-[#343438] text-white text-justify">
       <div className="grid grid-cols-1 xl:grid-cols-3 px-4 md:px-14 xl:px-[70px] pt-8 md:pt-[80px] pb-[60px] gap-4 md:gap-8 xl:gap-14 ">
         {/* first part */}
-        <div className=" order-1 md:order-none mb-4 md:mb-0">
-          <h1 className=" text-4xl font-semibold md:text-5xl md:font-bold">Newsletter</h1>
+        <div className="order-1 mb-4 md:order-none md:mb-0">
+          <h1 className="text-4xl font-semibold md:text-5xl md:font-bold">
+            Newsletter
+          </h1>
           <p className=" py-4 md:text-[16px]">
-            Lorem ipsum dolor sit amet consectetur. Diam nisl nisl eget vitae
-            iaculis. Ut elementum quam vel sagittis faucibus. Lorem ipsum dolor
-            sit amet consectetur.
+            Our IT company leads with visionary solutions, propelling industries
+            into a digital future. With expertise in cloud computing, AI,
+            cybersecurity, and data analytics, we deliver tailored excellence.
           </p>
           <div>
             <div className="inline-flex" role="group">
               <input className=" bg-[#D5D2DA] border-none " type="text" />
-              <button className="bg-[#B98E75] px-5 md:px-10 py-3 md:py-5 text-[16px]">
+              <button className="bg-[#FF7749] px-5 md:px-10 py-3 md:py-5 text-[16px]">
                 ENTER
               </button>
             </div>
           </div>
         </div>
         {/* center part  */}
-        <div className=" order-3 md:order-none grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-14 mt-5">
-            {/* center part 1 */}
+        <div className="grid order-3 grid-cols-1 gap-4 mt-5 md:order-none md:grid-cols-2 md:gap-8 lg:gap-14">
+          {/* center part 1 */}
           <div>
-            <h1 className=" text-[22px] mb-2 md:mb-7 font-medium">OUR SERVICES</h1>
-            <div className=" space-y-5">
-              <h1 className=" flex gap-4 items-center">
+            <h1 className=" text-[22px] mb-2 md:mb-7 font-medium">
+              OUR SERVICES
+            </h1>
+            <div className="space-y-5 ">
+              <h1 className="flex items-center gap-4 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -35,22 +39,22 @@ const Footer = () => {
                 >
                   <path
                     d="M5 12H19"
-                    stroke="#B98E75"
+                    stroke="#FF7749"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M12 5L19 12L12 19"
-                    stroke="#B98E75"
+                    stroke="#FF7749"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                 </svg>
-                Architecture
+                Figma to HTML
               </h1>
-              <h1 className=" flex gap-4 items-center">
+              <h1 className="flex items-center gap-4 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -60,22 +64,22 @@ const Footer = () => {
                 >
                   <path
                     d="M5 12H19"
-                    stroke="#B98E75"
+                    stroke="#FF7749"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M12 5L19 12L12 19"
-                    stroke="#B98E75"
+                    stroke="#FF7749"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                 </svg>
-                Interior Design
+                SQA
               </h1>
-              <h1 className=" flex gap-4 items-center">
+              <h1 className="flex items-center gap-4 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -85,22 +89,22 @@ const Footer = () => {
                 >
                   <path
                     d="M5 12H19"
-                    stroke="#B98E75"
+                    stroke="#FF7749"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M12 5L19 12L12 19"
-                    stroke="#B98E75"
+                    stroke="#FF7749"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                 </svg>
-                Home Decor
+                IT Solution
               </h1>
-              <h1 className=" flex gap-4 items-center">
+              <h1 className="flex items-center gap-4 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -110,22 +114,22 @@ const Footer = () => {
                 >
                   <path
                     d="M5 12H19"
-                    stroke="#B98E75"
+                    stroke="#FF7749"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M12 5L19 12L12 19"
-                    stroke="#B98E75"
+                    stroke="#FF7749"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                 </svg>
-                Interior Design
+                Graphics Design
               </h1>
-              <h1 className=" flex gap-4 items-center">
+              <h1 className="flex items-center gap-4 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -135,91 +139,67 @@ const Footer = () => {
                 >
                   <path
                     d="M5 12H19"
-                    stroke="#B98E75"
+                    stroke="#FF7749"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M12 5L19 12L12 19"
-                    stroke="#B98E75"
+                    stroke="#FF7749"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                 </svg>
-                Design System
+                B2B
               </h1>
             </div>
           </div>
           {/* center part 2 */}
-          <div>
-            <h1 className=" text-[22px] mb-2 md:mb-7 font-medium">OUR SERVICES</h1>
+          {/* <div>
+            <h1 className=" text-[22px] mb-2 md:mb-7 font-medium">
+              OUR SERVICES
+            </h1>
             <div>
               <h1>Architecture</h1>
-              <div className=" flex gap-2 mt-1">
+              <div className="flex gap-2 mt-1 ">
                 <img src="https://i.ibb.co/LQcdzTb/Rectangle-595.png" alt="" />
                 <img src="https://i.ibb.co/qFZm2qJ/Rectangle-598.png" alt="" />
                 <img src="https://i.ibb.co/qFZm2qJ/Rectangle-598.png" alt="" />
               </div>
             </div>
-            <div className=" mt-2">
+            <div className="mt-2 ">
               <h1>Interior</h1>
-              <div className=" flex gap-2 mt-1">
+              <div className="flex gap-2 mt-1 ">
                 <img src="https://i.ibb.co/YW6nF71/Rectangle-596.png" alt="" />
                 <img src="https://i.ibb.co/SmXVct0/Rectangle-602.png" alt="" />
                 <img src="https://i.ibb.co/ssyYbNy/Rectangle-599.png" alt="" />
               </div>
             </div>
-            <div className=" mt-2">
+            <div className="mt-2 ">
               <h1>Decoration</h1>
-              <div className=" flex gap-2 mt-1">
+              <div className="flex gap-2 mt-1 ">
                 <img src="https://i.ibb.co/5Gh9Myh/Rectangle-603.png" alt="" />
                 <img src="https://i.ibb.co/H4sF2kH/Rectangle-600.png" alt="" />
                 <img src="https://i.ibb.co/qWXxHMh/Rectangle-597.png" alt="" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* last part  */}
         <div className="order-2 md:order-none">
-          <div className="flex items-center  gap-3">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 167 167"
-              fill="none"
-              className=" h-[69px] w-[69px]"
-            >
-              <path
-                d="M61.5263 30.7632C61.5263 47.7532 47.7532 61.5263 30.7632 61.5263C13.7731 61.5263 0 47.7532 0 30.7632C0 13.7731 13.7731 4.26125e-06 30.7632 4.26125e-06C47.7532 4.26125e-06 61.5263 13.7731 61.5263 30.7632Z"
-                fill="#B98E75"
-              />
-              <path
-                d="M131.842 101.079C131.842 118.069 118.069 131.842 101.079 131.842C84.0889 131.842 70.3158 118.069 70.3158 101.079C70.3158 84.0889 84.0889 70.3158 101.079 70.3158C118.069 70.3158 131.842 84.0889 131.842 101.079Z"
-                fill="#B98E75"
-              />
-              <path
-                d="M0 70.3158H30.7632C47.7532 70.3158 61.5263 84.0889 61.5263 101.079V167H30.7632C13.7731 167 0 153.227 0 136.237V70.3158Z"
-                fill="#B98E75"
-              />
-              <path
-                d="M70.3158 61.5263V30.7632C70.3158 13.7731 84.0889 3.62416e-06 101.079 2.8815e-06L167 0V30.7632C167 47.7532 153.227 61.5263 136.237 61.5263L70.3158 61.5263Z"
-                fill="#B98E75"
-              />
-            </svg>
-            <h1 className="text-5xl font-bold text-white">
-              SolArt
-            </h1>
+          <div className="flex items-center gap-3">
+            <h1 className="text-5xl font-bold text-white">Dubai Bangla</h1>
           </div>
-          <p className=" py-6">
-            Lorem ipsum dolor sit amet consectetur. Diam nisl nisl eget vitae
-            iaculis. Ut elementum quam vel sagittis faucibus. Lorem ipsum dolor
-            sit amet consectetur. Diam nisl nisl eget vitae iaculis. Ut
-            elementum quam vel sagittis faucibus.
+          <p className="py-6 ">
+            Our IT company leads with visionary solutions, propelling industries
+            into a digital future. With expertise in cloud computing, AI,
+            cybersecurity, and data analytics, we deliver tailored excellence.
           </p>
           {/* icon */}
-          <div className=" flex gap-3">
-            <button className=" p-3 bg-[#B98E75]">
+          <div className="flex gap-3 ">
+            <button className=" p-3 bg-[#FF7749]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -236,7 +216,7 @@ const Footer = () => {
                 />
               </svg>
             </button>
-            <button className=" p-3 bg-[#B98E75]">
+            <button className=" p-3 bg-[#FF7749]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -253,7 +233,7 @@ const Footer = () => {
                 />
               </svg>
             </button>
-            <button className=" p-3 bg-[#B98E75]">
+            <button className=" p-3 bg-[#FF7749]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -284,7 +264,7 @@ const Footer = () => {
                 />
               </svg>
             </button>
-            <button className=" p-3 bg-[#B98E75]">
+            <button className=" p-3 bg-[#FF7749]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -321,43 +301,58 @@ const Footer = () => {
       {/* copyright part */}
       <div>
         <div className=" h-[1px] relative bg-white w-full">
-        <div className=" flex justify-center">
-        <div className=" bg-[#B98E75] rounded-full p-2 h-10 w-10 flex absolute right-8 md:right-1/2 -top-5">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-          >
-            <path
-              d="M18 15L12 9L6 15"
-              stroke="white"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-        </div>
+          <div className="flex justify-center ">
+            <div className=" bg-[#FF7749] rounded-full p-2 h-10 w-10 flex absolute right-8 md:right-1/2 -top-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M18 15L12 9L6 15"
+                  stroke="white"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
         </div>
         {/* footer arrow */}
-        <p className=" py-5 md:py-10 text-center">
-          Copyright by SoluArt © 2022. All rights reserved
+        <p className="py-5 text-center md:py-10">
+          Copyright by Dubai Bangla © 2024. All rights reserved
         </p>
       </div>
       {/* mobile svg */}
-      <div className=" absolute bottom-60 right-0 block md:hidden">
-      <svg width="201" height="286" viewBox="0 0 201 286" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.4">
-<circle cx="114.57" cy="20" r="14.5" stroke="#B98E75"/>
-<circle cx="114.57" cy="20" r="9.5" stroke="#B98E75"/>
-<circle cx="114.57" cy="20" r="19.5" stroke="#B98E75"/>
-</g>
-<path opacity="0.3" d="M359.804 271.563C342.404 277.541 299.405 287.84 266.608 281.215C225.612 272.933 190.572 237.156 160.55 239.926C130.527 242.696 118.436 278.689 84.0599 269.215C49.6838 259.741 47.9628 221.848 18.1948 211.074" stroke="#B98E75" strokeWidth="4" strokeDasharray="8 8"/>
-<path opacity="0.5" d="M16.4525 216.686L20.5279 204.658C20.9833 203.314 19.9333 201.937 18.5168 202.02L2.29475 202.97C0.528006 203.073 -0.243649 205.252 1.06397 206.444L13.2106 217.522C14.2764 218.494 15.9896 218.052 16.4525 216.686Z" fill="#B98E75"/>
-</svg>
-
+      <div className="absolute right-0 block bottom-60 md:hidden">
+        <svg
+          width="201"
+          height="286"
+          viewBox="0 0 201 286"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g opacity="0.4">
+            <circle cx="114.57" cy="20" r="14.5" stroke="#FF7749" />
+            <circle cx="114.57" cy="20" r="9.5" stroke="#FF7749" />
+            <circle cx="114.57" cy="20" r="19.5" stroke="#FF7749" />
+          </g>
+          <path
+            opacity="0.3"
+            d="M359.804 271.563C342.404 277.541 299.405 287.84 266.608 281.215C225.612 272.933 190.572 237.156 160.55 239.926C130.527 242.696 118.436 278.689 84.0599 269.215C49.6838 259.741 47.9628 221.848 18.1948 211.074"
+            stroke="#FF7749"
+            strokeWidth="4"
+            strokeDasharray="8 8"
+          />
+          <path
+            opacity="0.5"
+            d="M16.4525 216.686L20.5279 204.658C20.9833 203.314 19.9333 201.937 18.5168 202.02L2.29475 202.97C0.528006 203.073 -0.243649 205.252 1.06397 206.444L13.2106 217.522C14.2764 218.494 15.9896 218.052 16.4525 216.686Z"
+            fill="#FF7749"
+          />
+        </svg>
       </div>
     </div>
   );

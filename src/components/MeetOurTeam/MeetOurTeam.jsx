@@ -30,7 +30,7 @@ const MeetOurTeam = () => {
               <circle cx="61" cy="18" r="7" fill="#D5D2DA" />
               <circle cx="115" cy="18" r="7" fill="#D5D2DA" />
               <circle cx="7" cy="18" r="7" fill="#D5D2DA" />
-              <circle cx="61" cy="18" r="17.5" stroke="#B98E75" />
+              <circle cx="61" cy="18" r="17.5" stroke="#FF7749" />
             </svg>
           </div>
         </div>
@@ -46,7 +46,7 @@ const MeetOurTeam = () => {
             <path
               opacity="0.3"
               d="M-27.3732 1.78342C31.9616 40.0866 182.742 118.163 311.184 124.043C471.736 131.394 635.59 31.3092 744.969 69.436C854.348 107.563 866.04 252.188 1003.01 248.975C1139.99 245.761 1181.56 106.914 1302.56 94.6093"
-              stroke="#B98E75"
+              stroke="#FF7749"
               strokeWidth="4"
               strokeDasharray="8 8"
             />
@@ -55,7 +55,7 @@ const MeetOurTeam = () => {
               cy="91.9052"
               r="12"
               transform="rotate(7.26037 1312.98 91.9052)"
-              fill="#B98E75"
+              fill="#FF7749"
             />
           </svg>
         </div>
@@ -69,7 +69,7 @@ const MeetOurTeam = () => {
             <path
               opacity="0.3"
               d="M-15.5208 1.55518C1.4588 12.5162 44.6068 34.859 81.3624 36.5417C127.307 38.6451 174.196 10.0044 205.497 20.915C236.797 31.8256 240.143 73.2123 279.34 72.2927C318.537 71.3731 330.434 31.64 365.059 28.1187"
-              stroke="#B98E75"
+              stroke="#FF7749"
               strokeWidth="2"
               strokeDasharray="8 8"
             />
@@ -78,7 +78,7 @@ const MeetOurTeam = () => {
               cy="27.3453"
               r="5.16532"
               transform="rotate(7.26037 368.048 27.3453)"
-              fill="#B98E75"
+              fill="#FF7749"
             />
           </svg>
         </div>
