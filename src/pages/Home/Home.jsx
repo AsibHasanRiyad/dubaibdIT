@@ -12,7 +12,6 @@ import WhatWeDone from "../../components/WhatWeDone/WhatWeDone";
 // import FeedBack from "../../components/FeedBack/FeedBack";
 import Stats from "../../components/Stats/Stats";
 import Contact from "../../components/Contact/Contact";
-import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   useEffect(() => {
@@ -22,7 +21,6 @@ const Home = () => {
 
   return (
     <div className="w-full overflow-hidden ">
-      <Navbar />
       <Banner />
       <OurService />
       <About />
@@ -33,7 +31,6 @@ const Home = () => {
       {/* <FeedBack /> */}
       <Stats />
       <Contact />
-      <Footer />
     </div>
   );
 };

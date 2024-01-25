@@ -21,6 +21,8 @@ const OurService = () => {
           heading2={"Design and Performance"}
         />
 
+        {/* cards */}
+        {/* <div className="z-20 mt-20 text-white cards">Hello</div> */}
         <div className="grid grid-cols-1 gap-5 mt-5 md:grid-cols-2 lg:grid-cols-3 md:mt-12 ">
           {data?.map((card) => (
             <div
