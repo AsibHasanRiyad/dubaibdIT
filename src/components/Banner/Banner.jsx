@@ -8,6 +8,10 @@ const Banner = () => {
         <div className="flex items-center justify-center ">
           <div className="flex flex-col my-0 space-y-4 text-black lg:space-y-6 lg:my-10">
             {/* header  */}
+
+            <button className="px-6 py-2.5 text-xl hover:scale-105 duration-300 font-medium bg-white rounded-full shadow-lg w-fit text-primary shadow-gray-200">
+              Software Company
+            </button>
             <h1 className=" text-3xl md:text-5xl font-semibold text-black text-start leading-[40px] md:leading-[65px] ">
               We Can Grow Your Business <br />
               Through Providing - <br />
