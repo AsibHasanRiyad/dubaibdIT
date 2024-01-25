@@ -32,7 +32,7 @@ const Navbar = () => {
       >
         <Link
           to={"/"}
-          className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-100 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
+          className="flex items-center justify-end pr-10 md:pr-0 w-full text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
         >
           Home
         </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
       >
         <Link
           to={"/"}
-          className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-100 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
+          className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
         >
           About
         </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
       >
         <Link
           to={"/"}
-          className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-100 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
+          className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
         >
           Contact
         </Link>
@@ -75,8 +75,8 @@ const Navbar = () => {
         data-aos-easing="ease-in-out"
         className={
           navBar
-            ? " bg-[#100f0fe4] sticky  transform top-0 z-50 w-full bg-gradient-to-r from-gray-400/40 to-gray-50/20"
-            : "bg-transparent z-10 w-full sticky top-0 transition duration-500"
+            ? " bg-[#dbeaf4]/70 sticky  transform top-0 z-50 w-full "
+            : "bg-transparent  z-10 w-full sticky top-0 transition duration-500"
         }
 
         // className="top-0 z-50 w-full bg-gradient-to-r from-gray-400/40 to-gray-50/20"
@@ -86,20 +86,20 @@ const Navbar = () => {
             className="relative max-w-[85rem] w-full mx-auto sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
             aria-label="Global"
           >
-            <div className="flex items-center justify-between bg-[#000000]">
-              <div className="flex items-center justify-between gap-3 bg-[#242020] w-max h-full px-2 py-2.5 lg:px-8">
+            <div className="flex items-center justify-between ">
+              <div className="flex items-center justify-between gap-3 w-max h-full px-2 py-2.5 lg:px-8">
                 <img
-                  className="w-10 h-10 lg:w-20 lg:h-20"
+                  className="w-10 h-10 lg:w-14 lg:h-14"
                   src="https://i.ibb.co/xJ1cQvj/Logo-1.png"
                   alt=""
                 />
-                <h1 className="text-xl font-bold lg:text-3xl text-primary ">
+                <h1 className="text-lg font-bold lg:text-3xl text-primary ">
                   DubaiBD IT Ltd.
                 </h1>
               </div>
               <div className="flex items-center py-4 mr-3 sm:hidden">
                 {/* mobile call info */}
-                <div className="flex items-center gap-3 pr-4 text-gray-100">
+                <div className="flex items-center gap-3 pr-4 text-gray-800">
                   <div className="w-10 h-10 p-2 bg-white rounded-full ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +123,7 @@ const Navbar = () => {
                   </div>
                 </div>
                 <button
-                  className="flex items-center justify-center text-sm font-semibold text-gray-100 rounded-lg hs-collapse-toggle w-9 h-9 gap-x-2 hover:border-white/40 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="flex items-center justify-center text-sm font-semibold text-gray-800 rounded-lg hs-collapse-toggle w-9 h-9 gap-x-2 hover:border-white/40 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                   onClick={toggleDropdown}
                 >
                   <svg
@@ -135,21 +135,21 @@ const Navbar = () => {
                   >
                     <path
                       d="M3.57031 12H21.5703"
-                      stroke="white"
+                      stroke="#EF4B23"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                     <path
                       d="M3.57031 6H21.5703"
-                      stroke="white"
+                      stroke="#EF4B23"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                     <path
                       d="M3.57031 18H21.5703"
-                      stroke="white"
+                      stroke="#EF4B23"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -180,12 +180,12 @@ const Navbar = () => {
                 isDropdownOpen ? "" : "hidden"
               } overflow-hidden transition-all duration-500 basis-full grow md:block`}
             >
-              <ul className="flex flex-col gap-y-8 gap-x-0 sm:flex-row sm:items-center sm:justify-end text-end sm:gap-y-0 sm:gap-x-3 lg:gap-x-7 sm:mt-0 sm:ps-7 bg-gradient-to-r from-[#10106cae] to-[#07074D] md:bg-gradient-to-t md:from-transparent md:to-transparent ">
+              <ul className="flex flex-col py-5 md:gap-y-8 gap-x-0 sm:flex-row sm:items-center sm:justify-end text-end gap-y-0 sm:gap-x-3 lg:gap-x-7 sm:mt-0 sm:ps-7 bg-gradient-to-r from-primary/40 to-primary md:bg-gradient-to-t md:from-transparent md:to-transparent ">
                 {" "}
                 {navList}
                 <div>
                   {/* Call Info */}
-                  <div className="items-center hidden gap-3 pl-2 text-gray-100 sm:flex xl:pl-5">
+                  <div className="items-center hidden gap-3 pl-2 text-gray-800 sm:flex xl:pl-5">
                     <div className="p-2 bg-white rounded-full h-7 w-7 xl:h-10 xl:w-10">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -213,7 +213,7 @@ const Navbar = () => {
             </div>
           </nav>
         </header>
-        <div className="h-[1px] bg-gradient-to-r from-gray-700 to-gray-100"></div>
+        {/* <div className="h-[1px] bg-gradient-to-r from-gray-700 to-gray-100"></div> */}
       </div>
     </div>
   );
