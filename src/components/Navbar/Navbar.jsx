@@ -65,6 +65,20 @@ const Navbar = () => {
           Contact
         </Link>
       </motion.li>
+      <motion.li
+        whileHover={{
+          scale: 1.2,
+          transition: { duration: 0.4 },
+        }}
+        className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4"
+      >
+        <Link
+          to={"/"}
+          className="flex items-center justify-end  pt-8 md:pt-0 w-full text-gray-100 md:text-gray-800 md:hover:text-primary transition-all duration-300 font-medium text-2xl xl:text-[22px]"
+        >
+          Career
+        </Link>
+      </motion.li>
     </>
   );
   return (

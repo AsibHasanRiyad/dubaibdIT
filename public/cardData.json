@@ -2,21 +2,21 @@
   {
     "number": "01",
     "imageSrc": "https://i.ibb.co/J31V6pv/icons8-figma-500.png",
-    "title": "Figma to HTML",
+    "title": "Software Solution",
     "description": "Our experienced developer can convert any figma design to HTML.",
     "buttonText": "Get Service"
   },
   {
     "number": "02",
     "imageSrc": "https://i.ibb.co/cTVbJH4/quality-assurance.png",
-    "title": "SQA",
+    "title": "Website Design",
     "description": "If you need quality assurance for your software we can assist you.",
     "buttonText": "Get Service"
   },
   {
     "number": "03",
     "imageSrc": "https://i.ibb.co/v4HG1QZ/information-technology.png",
-    "title": "IT Development",
+    "title": "Apps Development",
     "description": "IT development is a must need for an IT Company.Contact us of IT Services.",
     "buttonText": "Get Service"
   }

@@ -1,3 +1,45 @@
 .text-stroke-2 {
   -webkit-text-stroke: 1px #ef4b23;
 }
+/* 
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background: black;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.cards::before {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100px;
+  height: 400px;
+  background: linear-gradient(#00ccff, #d400d4);
+  animation: animate 4s linear infinite;
+}
+
+.cards::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: black;
+  z-index: 2;
+  border-radius: 20px;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */

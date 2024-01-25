@@ -2,7 +2,7 @@ import Title from "../../shared/Title";
 
 const WhatWeDone = () => {
   return (
-    <div>
+    <div className="mb-10 lg:mb-32">
       <div className=" relative pt-[50px] lg:pt-[120px]">
         <div className=" max-w-[1440px] mx-auto">
           <div className="px-4 md:px-14 xl:px-[70px] ">
@@ -28,7 +28,7 @@ const WhatWeDone = () => {
               <Title
                 title={"Discover"}
                 color={"text-gray-100"}
-                heading1={"Dubai Bangla IT Ltd."}
+                heading1={"DubaiBD IT Ltd."}
               />
               <h1 className="flex items-center gap-3 text-gray-100 ">
                 <svg

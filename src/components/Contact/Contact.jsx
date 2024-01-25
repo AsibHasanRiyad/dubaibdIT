@@ -4,7 +4,7 @@ const Contact = () => {
       <div className=" hidden md:block h-[2px] bg-primary"></div>
       {/* contact info div */}
       <div className="flex items-center ">
-        <div className="flex items-center justify-center flex-auto pt-10 pb-16 mt-6  md:border-r-2 md:mt-2 md:border-r-primary">
+        <div className="flex items-center justify-center flex-auto pt-10 pb-16 mt-6 md:border-r-2 md:mt-2 md:border-r-primary">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -17,13 +17,13 @@ const Contact = () => {
             </svg>
             <div className="pt-6 ">
               <h1 className=" text-primary">Phone</h1>
-              <h1 className=" text-heading"> +1 203-123-0606</h1>
+              <h1 className=" text-heading">+8801575-090670</h1>
             </div>
           </div>
         </div>
         <div className=" block md:hidden h-24 w-[1px] bg-primary"></div>
         {/*  */}
-        <div className="flex items-center justify-center flex-auto pt-10 pb-16 mt-6  md:border-r-2 md:mt-2 border-r-primary">
+        <div className="flex items-center justify-center flex-auto pt-10 pb-16 mt-6 md:border-r-2 md:mt-2 border-r-primary">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ const Contact = () => {
           </div>
         </div>
         {/*  */}
-        <div className="items-center justify-center flex-auto hidden pt-10 pb-16 mt-2  md:flex">
+        <div className="items-center justify-center flex-auto hidden pt-10 pb-16 mt-2 md:flex">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"

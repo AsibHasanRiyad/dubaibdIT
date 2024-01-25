@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Title from "../../shared/Title";
 import "./Style/service.css";
+import Button from "../../shared/Button";
 
 const OurService = () => {
   const [data, setData] = useState([]);
@@ -19,18 +20,18 @@ const OurService = () => {
           heading1={"We Provide Best  "}
           heading2={"Design and Performance"}
         />
-        {/* cards */}
-        <div className="grid grid-cols-1 gap-5 mt-5 md:grid-cols-2 lg:grid-cols-3 md:mt-12">
+
+        <div className="grid grid-cols-1 gap-5 mt-5 md:grid-cols-2 lg:grid-cols-3 md:mt-12 ">
           {data?.map((card) => (
             <div
               data-aos="zoom-in"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
               key={card.number}
-              className="p-6 border-2 border-primary"
+              className="relative p-6 border-2 rounded-md border-primary"
             >
               <div className="flex items-start justify-between ">
-                <div className=" h-[108px] w-[108px] lg:w-[156px] lg:h-[156px] ">
+                <div className=" h-[108px] w-[108px] ">
                   <img src={card?.imageSrc} alt="" />
                 </div>
                 <h1 className=" text-stroke-2 text-[60px] font-bold text-transparent">
@@ -38,15 +39,13 @@ const OurService = () => {
                 </h1>
               </div>
               <div>
-                <h1 className=" text-heading font-semibold text-[28px] lg:text-5xl mt-5">
+                <h1 className=" text-heading font-semibold text-[28px] lg:text-4xl mt-5">
                   {card?.title}
                 </h1>
                 <p className=" max-w-[350px] text-[14px] lg:text-base text-paragraph py-2 lg:py-5">
                   {card?.description}
                 </p>
-                <button className=" bg-primary px-12 py-5 text-[18px] rounded-lg text-gray-100 ">
-                  Get Service
-                </button>
+                <Button title={"Get Service"} />
               </div>
             </div>
           ))}
