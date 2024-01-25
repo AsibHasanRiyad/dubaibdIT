@@ -9,7 +9,7 @@ export default {
     colors: {
       heading: "#252531",
       paragraph: "#343438",
-      primary: "#FF7749",
+      primary: "#EF4B23",
     },
   },
   plugins: [require("flowbite/plugin")],

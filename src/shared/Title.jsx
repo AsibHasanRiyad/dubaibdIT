@@ -10,8 +10,8 @@ const Title = ({ title, heading1, heading2, color }) => {
             fill="none"
             className="w-[64px] h-[6.5px] md:w-[108px] md:h-[10px] "
           >
-            <rect y="0.5" width="88" height="3" fill="#FF7749" />
-            <rect x="20" y="6.5" width="88" height="3" fill="#FF7749" />
+            <rect y="0.5" width="88" height="3" fill="#EF4B23" />
+            <rect x="20" y="6.5" width="88" height="3" fill="#EF4B23" />
           </svg>
           <h1 className=" text-base md:text-[28px] md:font-semibold">
             {title}

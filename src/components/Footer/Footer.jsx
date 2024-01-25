@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <div className="inline-flex" role="group">
               <input className=" bg-[#D5D2DA] border-none " type="text" />
-              <button className="bg-[#FF7749] px-5 md:px-10 py-3 md:py-5 text-[16px]">
+              <button className="bg-[#EF4B23] px-5 md:px-10 py-3 md:py-5 text-[16px]">
                 ENTER
               </button>
             </div>
@@ -39,14 +39,14 @@ const Footer = () => {
                 >
                   <path
                     d="M5 12H19"
-                    stroke="#FF7749"
+                    stroke="#EF4B23"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M12 5L19 12L12 19"
-                    stroke="#FF7749"
+                    stroke="#EF4B23"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -64,14 +64,14 @@ const Footer = () => {
                 >
                   <path
                     d="M5 12H19"
-                    stroke="#FF7749"
+                    stroke="#EF4B23"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M12 5L19 12L12 19"
-                    stroke="#FF7749"
+                    stroke="#EF4B23"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -89,14 +89,14 @@ const Footer = () => {
                 >
                   <path
                     d="M5 12H19"
-                    stroke="#FF7749"
+                    stroke="#EF4B23"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M12 5L19 12L12 19"
-                    stroke="#FF7749"
+                    stroke="#EF4B23"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -114,14 +114,14 @@ const Footer = () => {
                 >
                   <path
                     d="M5 12H19"
-                    stroke="#FF7749"
+                    stroke="#EF4B23"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M12 5L19 12L12 19"
-                    stroke="#FF7749"
+                    stroke="#EF4B23"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -139,14 +139,14 @@ const Footer = () => {
                 >
                   <path
                     d="M5 12H19"
-                    stroke="#FF7749"
+                    stroke="#EF4B23"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M12 5L19 12L12 19"
-                    stroke="#FF7749"
+                    stroke="#EF4B23"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -199,7 +199,7 @@ const Footer = () => {
           </p>
           {/* icon */}
           <div className="flex gap-3 ">
-            <button className=" p-3 bg-[#FF7749]">
+            <button className=" p-3 bg-[#EF4B23]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -216,7 +216,7 @@ const Footer = () => {
                 />
               </svg>
             </button>
-            <button className=" p-3 bg-[#FF7749]">
+            <button className=" p-3 bg-[#EF4B23]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -233,7 +233,7 @@ const Footer = () => {
                 />
               </svg>
             </button>
-            <button className=" p-3 bg-[#FF7749]">
+            <button className=" p-3 bg-[#EF4B23]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -264,7 +264,7 @@ const Footer = () => {
                 />
               </svg>
             </button>
-            <button className=" p-3 bg-[#FF7749]">
+            <button className=" p-3 bg-[#EF4B23]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -302,7 +302,7 @@ const Footer = () => {
       <div>
         <div className=" h-[1px] relative bg-white w-full">
           <div className="flex justify-center ">
-            <div className=" bg-[#FF7749] rounded-full p-2 h-10 w-10 flex absolute right-8 md:right-1/2 -top-5">
+            <div className=" bg-[#EF4B23] rounded-full p-2 h-10 w-10 flex absolute right-8 md:right-1/2 -top-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -336,21 +336,21 @@ const Footer = () => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <g opacity="0.4">
-            <circle cx="114.57" cy="20" r="14.5" stroke="#FF7749" />
-            <circle cx="114.57" cy="20" r="9.5" stroke="#FF7749" />
-            <circle cx="114.57" cy="20" r="19.5" stroke="#FF7749" />
+            <circle cx="114.57" cy="20" r="14.5" stroke="#EF4B23" />
+            <circle cx="114.57" cy="20" r="9.5" stroke="#EF4B23" />
+            <circle cx="114.57" cy="20" r="19.5" stroke="#EF4B23" />
           </g>
           <path
             opacity="0.3"
             d="M359.804 271.563C342.404 277.541 299.405 287.84 266.608 281.215C225.612 272.933 190.572 237.156 160.55 239.926C130.527 242.696 118.436 278.689 84.0599 269.215C49.6838 259.741 47.9628 221.848 18.1948 211.074"
-            stroke="#FF7749"
+            stroke="#EF4B23"
             strokeWidth="4"
             strokeDasharray="8 8"
           />
           <path
             opacity="0.5"
             d="M16.4525 216.686L20.5279 204.658C20.9833 203.314 19.9333 201.937 18.5168 202.02L2.29475 202.97C0.528006 203.073 -0.243649 205.252 1.06397 206.444L13.2106 217.522C14.2764 218.494 15.9896 218.052 16.4525 216.686Z"
-            fill="#FF7749"
+            fill="#EF4B23"
           />
         </svg>
       </div>

@@ -16,7 +16,7 @@ const Banner = () => {
         className="text-gray-100"
       >
         <div className="flex items-center gap-4 text-5xl font-bold ">
-          <div className="h-1 w-16 md:w-24 lg:w-32 bg-[#FF7749]"></div>
+          <div className="h-1 w-16 md:w-24 lg:w-32 bg-[#EF4B23]"></div>
           <h1 className="text-4xl">#1</h1>
         </div>
         <div className=" text-[22px] text-[#ff7649f4] md:text-4xl lg:text-6xl font-normal md:font-medium lg:font-bold my-3 lg:my-6 space-y-1 lg:space-y-6">
@@ -31,7 +31,7 @@ const Banner = () => {
           responsible digital landscape.
         </p>
         {/* button */}
-        <button className=" bg-[#FF7749] px-4 py-3 rounded-md text-lg font-medium mt-6">
+        <button className=" bg-[#EF4B23] px-4 py-3 rounded-md text-lg font-medium mt-6">
           OUR PORTFOLIO
         </button>
       </div>

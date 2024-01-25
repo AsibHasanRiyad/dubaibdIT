@@ -12,8 +12,8 @@ const Contact = () => {
               fill="none"
               className="w-[64px] h-[6.5px] md:w-[108px] md:h-[10px] "
             >
-              <rect y="0.5" width="88" height="3" fill="#FF7749" />
-              <rect x="20" y="6.5" width="88" height="3" fill="#FF7749" />
+              <rect y="0.5" width="88" height="3" fill="#EF4B23" />
+              <rect x="20" y="6.5" width="88" height="3" fill="#EF4B23" />
             </svg>
             <div className="pt-6 ">
               <h1 className=" text-primary">Phone</h1>
@@ -31,8 +31,8 @@ const Contact = () => {
               fill="none"
               className="w-[64px] h-[6.5px] md:w-[108px] md:h-[10px] "
             >
-              <rect y="0.5" width="88" height="3" fill="#FF7749" />
-              <rect x="20" y="6.5" width="88" height="3" fill="#FF7749" />
+              <rect y="0.5" width="88" height="3" fill="#EF4B23" />
+              <rect x="20" y="6.5" width="88" height="3" fill="#EF4B23" />
             </svg>
             <div className="pt-6 ">
               <h1 className=" text-primary">Email </h1>
@@ -49,8 +49,8 @@ const Contact = () => {
               fill="none"
               className="w-[64px] h-[6.5px] md:w-[108px] md:h-[10px] "
             >
-              <rect y="0.5" width="88" height="3" fill="#FF7749" />
-              <rect x="20" y="6.5" width="88" height="3" fill="#FF7749" />
+              <rect y="0.5" width="88" height="3" fill="#EF4B23" />
+              <rect x="20" y="6.5" width="88" height="3" fill="#EF4B23" />
             </svg>
             <div className="pt-6 ">
               <h1 className=" text-primary">Our Address </h1>
