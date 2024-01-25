@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <div className=" grid grid-cols-1 lg:grid-cols-2 items-center justify-center min-h-[90vh] mt-[100px] gap-10 px-4 md:px-8  lg:px-20">
+    <div className=" grid grid-cols-1 lg:grid-cols-2 items-center justify-center min-h-[90vh] mt-[80px] md:mt-[100px] lg:mt-[70px] gap-10 px-4 md:px-8  lg:px-20">
       <div className="flex items-center justify-center col-span-1 ">
         <div className="flex items-center justify-center ">
           <div className="flex flex-col my-0 space-y-4 text-black lg:space-y-6 lg:my-10">
             {/* header  */}
 
-            <button className="px-6 py-2.5 text-xl hover:scale-105 duration-300 font-medium bg-white rounded-full shadow-lg w-fit text-primary shadow-gray-200">
+            <button className="px-6 py-2.5 text-base md:text-xl hover:scale-105 duration-300 font-medium bg-white rounded-full shadow-lg w-fit text-primary shadow-gray-200">
               Software Company
             </button>
             <h1 className=" text-3xl md:text-5xl font-semibold text-black text-start leading-[40px] md:leading-[65px] ">

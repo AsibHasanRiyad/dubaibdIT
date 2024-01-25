@@ -32,7 +32,7 @@ const Navbar = () => {
       >
         <Link
           to={"/"}
-          className="flex items-center justify-end pr-10 md:pr-0 w-full text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
+          className="flex items-center justify-end pr-10 md:pr-0 w-full text-gray-100 md:text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
         >
           Home
         </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
       >
         <Link
           to={"/"}
-          className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
+          className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-100 md:text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
         >
           About
         </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
       >
         <Link
           to={"/"}
-          className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
+          className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-100 md:text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
         >
           Contact
         </Link>
@@ -78,8 +78,6 @@ const Navbar = () => {
             ? " bg-[#dbeaf4]/70 sticky  transform top-0 z-50 w-full "
             : "bg-transparent  z-10 w-full sticky top-0 transition duration-500"
         }
-
-        // className="top-0 z-50 w-full bg-gradient-to-r from-gray-400/40 to-gray-50/20"
       >
         <header className="z-50 flex flex-wrap w-full text-sm bg-transparent sm:justify-start sm:flex-nowrap sm:py-0">
           <nav
@@ -180,12 +178,15 @@ const Navbar = () => {
                 isDropdownOpen ? "" : "hidden"
               } overflow-hidden transition-all duration-500 basis-full grow md:block`}
             >
-              <ul className="flex flex-col py-5 md:gap-y-8 gap-x-0 sm:flex-row sm:items-center sm:justify-end text-end gap-y-0 sm:gap-x-3 lg:gap-x-7 sm:mt-0 sm:ps-7 bg-gradient-to-r from-primary/40 to-primary md:bg-gradient-to-t md:from-transparent md:to-transparent ">
+              <ul className="flex flex-col py-5 md:gap-y-8 gap-x-0 sm:flex-row sm:items-center sm:justify-end text-end gap-y-0 sm:gap-x-3 lg:gap-x-7 sm:mt-0 sm:ps-7 bg-primary md:bg-transparent ">
                 {" "}
                 {navList}
                 <div>
                   {/* Call Info */}
-                  <div className="items-center hidden gap-3 pl-2 text-gray-800 sm:flex xl:pl-5">
+                  <a
+                    href="tel://+8801575-090670"
+                    className="items-center hidden gap-3 pl-2 text-gray-800 cursor-pointer sm:flex"
+                  >
                     <div className="p-2 bg-white rounded-full h-7 w-7 xl:h-10 xl:w-10">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -205,9 +206,9 @@ const Navbar = () => {
                       <h1 className=" text-sm xl:text-[22px] font-medium">
                         Call Anytime
                       </h1>
-                      <p className="text-xs xl:text-base">+0987654321</p>
+                      <p className="text-xs xl:text-base">+8801575-090670</p>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </ul>
             </div>
