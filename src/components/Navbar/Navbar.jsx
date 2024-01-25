@@ -32,7 +32,7 @@ const Navbar = () => {
       >
         <Link
           to={"/"}
-          className="flex items-center justify-end pr-10 md:pr-0 w-full text-gray-100 md:text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
+          className="flex items-center justify-end  w-full text-gray-100 md:text-gray-800 md:hover:text-primary transition-all duration-300 font-medium text-2xl xl:text-[22px]"
         >
           Home
         </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
       >
         <Link
           to={"/"}
-          className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-100 md:text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
+          className="flex items-center justify-end  pt-8 md:pt-0 w-full text-gray-100 md:text-gray-800 md:hover:text-primary transition-all duration-300 font-medium text-2xl xl:text-[22px]"
         >
           About
         </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
       >
         <Link
           to={"/"}
-          className="flex items-center justify-end pr-10 md:pr-0 pt-8 md:pt-0 w-full text-gray-100 md:text-gray-800 hover:text-primary transition-all duration-300 font-medium text-4 xl:text-[22px]"
+          className="flex items-center justify-end  pt-8 md:pt-0 w-full text-gray-100 md:text-gray-800 md:hover:text-primary transition-all duration-300 font-medium text-2xl xl:text-[22px]"
         >
           Contact
         </Link>
@@ -178,7 +178,7 @@ const Navbar = () => {
                 isDropdownOpen ? "" : "hidden"
               } overflow-hidden transition-all duration-500 basis-full grow md:block`}
             >
-              <ul className="flex flex-col py-5 md:gap-y-8 gap-x-0 sm:flex-row sm:items-center sm:justify-end text-end gap-y-0 sm:gap-x-3 lg:gap-x-7 sm:mt-0 sm:ps-7 bg-primary md:bg-transparent ">
+              <ul className="flex flex-col items-center justify-center h-screen py-20 md:h-fit md:py-0 md:gap-y-8 gap-x-0 sm:flex-row sm:items-center sm:justify-end text-end gap-y-0 sm:gap-x-3 lg:gap-x-7 sm:mt-0 sm:ps-7 bg-primary md:bg-transparent ">
                 {" "}
                 {navList}
                 <div>
