@@ -7,7 +7,7 @@ import OurService from "../../components/OurService/OurService";
 import About from "../../components/About/About";
 import OurProject from "../../components/OurProject/OurProject";
 import WorkingSteps from "../../components/WorkingSetps/WorkingSteps";
-// import MeetOurTeam from "../../components/MeetOurTeam/MeetOurTeam";
+import MeetOurTeam from "../../components/MeetOurTeam/MeetOurTeam";
 import WhatWeDone from "../../components/WhatWeDone/WhatWeDone";
 // import FeedBack from "../../components/FeedBack/FeedBack";
 import Stats from "../../components/Stats/Stats";
@@ -26,7 +26,7 @@ const Home = () => {
       <About />
       <OurProject />
       <WorkingSteps />
-      {/* <MeetOurTeam /> */}
+      <MeetOurTeam />
       <WhatWeDone />
       {/* <FeedBack /> */}
       <Stats />
