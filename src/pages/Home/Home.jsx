@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Navbar from "../../components/Navbar/Navbar";
 import Banner from "../../components/Banner/Banner";
 import OurService from "../../components/OurService/OurService";
 import About from "../../components/About/About";
