@@ -12,14 +12,14 @@ const Footer = () => {
             into a digital future. With expertise in cloud computing, AI,
             cybersecurity, and data analytics, we deliver tailored excellence.
           </p>
-          <div>
+          {/* <div>
             <div className="inline-flex" role="group">
               <input className=" bg-[#D5D2DA] border-none " type="text" />
               <button className="bg-[#EF4B23] px-5 md:px-10 py-3 md:py-5 text-[16px]">
                 ENTER
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* center part  */}
         <div className="grid order-3 grid-cols-1 gap-4 mt-5 md:order-none md:grid-cols-2 md:gap-8 lg:gap-14">

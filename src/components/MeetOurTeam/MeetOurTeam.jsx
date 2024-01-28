@@ -13,7 +13,7 @@ const MeetOurTeam = () => {
             />
           </div>
           {/* member image */}
-          <div className="grid grid-cols-2 gap-4 mt-4  md:grid-cols-4 md:mt-10">
+          <div className="grid grid-cols-2 gap-4 mt-4 md:grid-cols-4 md:mt-10">
             <img src="https://i.ibb.co/2cj4p63/Team-Card-3.png" alt="" />
             <img src="https://i.ibb.co/h7JksvJ/Team-Card-2.png" alt="" />
             <img src="https://i.ibb.co/jH7H03s/Team-Card.png" alt="" />
@@ -35,7 +35,7 @@ const MeetOurTeam = () => {
           </div>
         </div>
         {/* large svg */}
-        <div className="absolute hidden  -top-4 lg:block">
+        <div className="absolute hidden -top-4 lg:block">
           <svg
             width="1325"
             height="252"

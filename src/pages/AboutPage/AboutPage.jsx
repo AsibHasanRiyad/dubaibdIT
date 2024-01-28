@@ -1,7 +1,7 @@
 import Button from "../../shared/Button";
 import Title from "../../shared/Title";
 
-const About = () => {
+const AboutPage = () => {
   return (
     <div className="my-8 md:my-14 lg:my-20">
       {/* who we are */}
@@ -87,4 +87,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutPage;

@@ -1,11 +1,11 @@
 import { Outlet } from "react-router-dom";
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
+import Navbar from "../shared/Navbar";
 
 const MainLayout = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar></Navbar>
       <div className="flex items-center justify-center min-h-screen ">
         <Outlet />
       </div>

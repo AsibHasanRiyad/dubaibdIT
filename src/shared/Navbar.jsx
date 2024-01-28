@@ -45,7 +45,7 @@ const Navbar = () => {
         className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4"
       >
         <Link
-          to={"/about"}
+          to={"/aboutPage"}
           className="flex items-center justify-end  pt-8 md:pt-0 w-full text-gray-100 md:text-gray-800 md:hover:text-primary transition-all duration-300 font-medium text-2xl xl:text-[22px]"
         >
           About
@@ -59,7 +59,7 @@ const Navbar = () => {
         className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4"
       >
         <Link
-          to={"/"}
+          to={"/contactPage"}
           className="flex items-center justify-end  pt-8 md:pt-0 w-full text-gray-100 md:text-gray-800 md:hover:text-primary transition-all duration-300 font-medium text-2xl xl:text-[22px]"
         >
           Contact
