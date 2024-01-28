@@ -84,9 +84,9 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 z-50 w-full ">
       <div
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
+        // data-aos="fade-down"
+        // data-aos-duration="1000"
+        // data-aos-easing="ease-in-out"
         className={
           navBar
             ? " bg-[#dbeaf4]/70 sticky  transform top-0 z-50 w-full "
